@@ -227,7 +227,7 @@ function breakStatement(numero) {
   var m;
   for(var i=0;i<10;i++){
     numero = numero  + 2;
-    if(numero === i){
+    if(numero == i){
       m=true;
       break; 
     }
